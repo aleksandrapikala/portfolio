@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "paths": {
+      "@assets/*": [
+        "assets/*"
+      ]
+    },
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "module": "commonJS",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "target": "ES5",
+    "jsx": "react"
+  },
+  "include": [
+    "src/custom.d.tsts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
